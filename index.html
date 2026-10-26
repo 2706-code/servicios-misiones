@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servicios Misiones</title>
+  <meta name="description" content="Servicios Misiones conecta personas con prestadores, comercios y servicios locales y turísticos en Misiones, Argentina.">
+  <style>
+    :root{
+      --orange:#e85b18;
+      --orange-dark:#bf4510;
+      --cream:#fff8f2;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --card:#ffffff;
+      --line:#eadfd7;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      color:var(--text);
+      background:#fff;
+      line-height:1.55;
+    }
+    header{
+      background:linear-gradient(135deg,var(--orange),#ff7a2f);
+      color:white;
+      padding:18px 20px;
+      position:sticky;
+      top:0;
+      z-index:10;
+      box-shadow:0 2px 8px rgba(0,0,0,.12);
+    }
+    .nav{
+      max-width:1050px;
+      margin:auto;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+    }
+    .brand{font-weight:800;font-size:22px}
+    .nav a{color:white;text-decoration:none;font-weight:700;margin-left:14px}
+    .hero{
+      background:var(--cream);
+      padding:70px 20px;
+      text-align:center;
+    }
+    .hero-inner{max-width:900px;margin:auto}
+    .badge{
+      display:inline-block;
+      background:#fff;
+      color:var(--orange-dark);
+      border:1px solid #ffd4bd;
+      border-radius:999px;
+      padding:7px 14px;
+      font-weight:700;
+      margin-bottom:14px;
+    }
+    h1{font-size:46px;line-height:1.08;margin:8px 0 18px}
+    h2{font-size:30px;margin-top:0}
+    .hero p{font-size:20px;color:#4b5563;max-width:760px;margin:0 auto 28px}
+    .btn{
+      display:inline-block;
+      background:var(--orange);
+      color:white;
+      padding:14px 22px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:800;
+      margin:6px;
+    }
+    .btn.secondary{
+      background:white;color:var(--orange);
+      border:2px solid var(--orange);
+    }
+    section{padding:58px 20px}
+    .wrap{max-width:1050px;margin:auto}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:18px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:24px;
+      box-shadow:0 5px 18px rgba(0,0,0,.05);
+    }
+    .card h3{margin-top:0;color:var(--orange-dark)}
+    .soft{background:#fafafa}
+    .legal{font-size:15px;color:#4b5563}
+    footer{
+      background:#20252b;
+      color:#e5e7eb;
+      padding:32px 20px;
+      text-align:center;
+    }
+    footer a{color:#fff}
+    @media(max-width:800px){
+      .grid{grid-template-columns:1fr}
+      h1{font-size:36px}
+      .nav{align-items:flex-start;flex-direction:column}
+      .nav a{margin:0 12px 0 0}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">Servicios Misiones</div>
+    <nav>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#sectores">Sectores</a>
+      <a href="#privacidad">Privacidad</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="badge">Misiones, Argentina</div>
+      <h1>Encontrá servicios y prestadores en un solo lugar</h1>
+      <p>Servicios Misiones conecta usuarios con comercios, profesionales y prestadores de servicios locales y turísticos de toda la provincia.</p>
+      <a class="btn" href="https://servicios-misiones.glide.page" target="_blank" rel="noopener">Entrar a la app</a>
+      <a class="btn secondary" href="#como-funciona">Conocer más</a>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <div class="wrap">
+      <h2>Cómo funciona</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Buscá</h3>
+          <p>Encontrá prestadores y comercios por categoría, servicio o zona.</p>
+        </div>
+        <div class="card">
+          <h3>Contactá</h3>
+          <p>Ingresá a la publicación y comunicate directamente con el prestador.</p>
+        </div>
+        <div class="card">
+          <h3>Publicá</h3>
+          <p>Los prestadores pueden crear y actualizar sus publicaciones desde la app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sectores" class="soft">
+    <div class="wrap">
+      <h2>Dos sectores principales</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Servicios locales</h3>
+          <p>Oficios, mantenimiento, ferretería, informática, transporte, estética, clases, comercios y muchos servicios más.</p>
+        </div>
+        <div class="card">
+          <h3>Turistas</h3>
+          <p>Alojamiento, remis, gastronomía, lugares turísticos y servicios pensados para quienes visitan Misiones.</p>
+        </div>
+        <div class="card">
+          <h3>Publicidad destacada</h3>
+          <p>Las empresas pueden destacar su negocio dentro de la aplicación mediante espacios publicitarios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <h2>Contacto</h2>
+      <div class="card">
+        <p><strong>Servicios Misiones</strong></p>
+        <p>Responsable: Omar Ariel Szilak</p>
+        <p>Puerto Iguazú, Misiones, Argentina</p>
+        <p>Correo de contacto: <a href="mailto:szilak67@gmail.com">szilak67@gmail.com</a></p>
+        <p><a class="btn" href="https://servicios-misiones.glide.page" target="_blank" rel="noopener">Abrir Servicios Misiones</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacidad" class="soft">
+    <div class="wrap legal">
+      <h2>Política de privacidad</h2>
+      <p>Servicios Misiones utiliza los datos que los usuarios proporcionan para permitir el funcionamiento de la aplicación, mostrar publicaciones, facilitar el contacto entre usuarios y prestadores y administrar las funciones del servicio.</p>
+      <p>Los datos pueden incluir nombre, correo electrónico, teléfono, municipio, información de publicaciones e imágenes cargadas por los usuarios. La información no se vende a terceros. Algunos servicios externos necesarios para el funcionamiento de la aplicación pueden procesar datos conforme a sus propias políticas de privacidad.</p>
+      <p>El usuario puede solicitar la corrección o eliminación de sus datos y de su cuenta utilizando las funciones disponibles dentro de la aplicación o mediante el correo de contacto indicado en este sitio.</p>
+      <p>Servicios Misiones puede actualizar esta política cuando sea necesario. La versión publicada en este sitio será la vigente.</p>
+    </div>
+  </section>
+
+  <section id="terminos">
+    <div class="wrap legal">
+      <h2>Términos y condiciones</h2>
+      <p>Servicios Misiones funciona como una plataforma de publicación y contacto entre usuarios y prestadores. Cada prestador es responsable de la información, precios, disponibilidad, calidad y cumplimiento de los servicios que publica.</p>
+      <p>El uso de la aplicación implica aceptar estos términos. No se permite publicar contenido ilegal, engañoso, ofensivo o que vulnere derechos de terceros. Servicios Misiones puede moderar o retirar publicaciones que incumplan estas condiciones.</p>
+      <p>Los pagos por publicaciones, publicidad u otros servicios dentro de la plataforma se rigen por las condiciones informadas al momento de contratar cada opción.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Servicios Misiones · Puerto Iguazú, Misiones, Argentina</p>
+  <p><a href="#privacidad">Privacidad</a> · <a href="#terminos">Términos</a></p>
+</footer>
+</body>
+</html>
